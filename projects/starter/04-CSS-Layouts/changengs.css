@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  border: 3px solid black;
+  width: 1200px;
+  height: auto;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.product-details-title {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.free-shipping {
+  color: #777;
+  text-transform: uppercase;
+  float: right;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.description {
+  clear: both;
+}
+
+p .price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.price-info {
+  margin-bottom: 0;
+  float: left;
+}
+
+.product-details {
+  list-style: square;
+}
+
+.more-info:link {
+  margin-bottom: 50px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.add-to-cart {
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  height: 70px;
+  border-top: #000 solid 4px;
+  clear: both;
+}
+
+.add-to-cart:hover {
+  color: black;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+nav a {
+  margin: 20px;
+}
+
+.sale {
+  background-color: #f00;
+  color: #fff;
+  font-size: 16px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  position: absolute;
+
+  top: -15px;
+  left: -15px;
+}
+
+.color div {
+  display: inline-block;
+  height: 20px;
+  width: 4%;
+  margin: 20px 20px;
+}
+
+.color-1 {
+  background-color: #000;
+}
+
+.color-2 {
+  background-color: #00f;
+}
+
+.color-3 {
+  background-color: #f00;
+}
+
+.color-4 {
+  background-color: orange;
+}
+
+.color-5 {
+  background-color: lightgreen;
+}
+.color-6 {
+  background-color: rgb(116, 79, 79);
+}
+
+.img-container {
+  float: left;
+  width: 30%;
+}
+
+.price-container {
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.details-container {
+  float: left;
+  width: 30%;
+}
